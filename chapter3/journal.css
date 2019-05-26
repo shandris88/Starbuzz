@@ -1,0 +1,24 @@
+@font-face {
+    font-family:"Muller";
+    src: url("./fonts/Fontfabric-MullerBold.woff") format('woff');
+    src: url("./fonts/Fontfabric-MullerBold.woff2") format('woff2');
+}
+body {
+    font-family: Verdana, Geneva, Arial, sans-serif;
+    font-size: small;
+}
+h1, h2 {
+    color: #cc6600;
+    border-bottom: thin dotted #888;
+}
+h1{ 
+    font-family: "Muller";
+    font-size: 220%;
+}
+h2 {
+    font-size: 130%;
+    font-weight: normal;
+}
+blockquote {
+    font-style: italic;
+}
